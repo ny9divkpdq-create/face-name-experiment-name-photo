@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>顔と名前の一致記憶実験（予備実験）</title>
+<title>本実験(名前＋写真)</title>
 <style>
   :root { color-scheme: light; --ink:#202735; --accent:#315f91; --soft:#eef4fa; --line:#d8e0e8; }
   * { box-sizing: border-box; }
@@ -53,7 +53,7 @@
 
 <main>
   <section id="intro" class="panel">
-    <h1 style="text-align:center;margin-bottom:30px;">顔と名前の一致記憶実験</h1>
+    <h1 style="text-align:center;margin-bottom:30px;">本実験(名前＋写真)</h1>
     <h2>実験について</h2>
     <p>これから10名の顔写真と名前が一覧で表示されます。それぞれの顔と名前をできるだけ覚えてください。</p>
     <p><strong>学習画面は200秒で自動的に終了し、記憶テスト画面に切り替わります。時間内に覚えてください。</strong></p>
@@ -113,16 +113,16 @@
 /* 画像・名前を変更する場合は、この10件を編集してください。
    画像はGitHubリポジトリ内の images/person01.jpg ～ person10.jpg を想定しています。 */
 const PEOPLE = [
-  { id: "person01", name: "小林 しおり", image: "images/person01.jpg" },
-  { id: "person02", name: "加藤 愛子", image: "images/person02.jpg" },
-  { id: "person03", name: "渡辺 拓也", image: "images/person03.jpg" },
-  { id: "person04", name: "高橋 祐介", image: "images/person04.jpg" },
-  { id: "person05", name: "中村 美奈", image: "images/person05.jpg" },
-  { id: "person06", name: "上田 彩", image: "images/person06.jpg" },
-  { id: "person07", name: "木下 大輔", image: "images/person07.jpg" },
-  { id: "person08", name: "佐藤 歩", image: "images/person08.jpg" },
-  { id: "person09", name: "山本 恵子", image: "images/person09.jpg" },
-  { id: "person10", name: "小川 潤", image: "images/person10.jpg" }
+  { id: "person01", name: "岡田 綾乃", image: "images/person01.jpg" },
+  { id: "person02", name: "林 美穂", image: "images/person02.jpg" },
+  { id: "person03", name: "加藤 達也", image: "images/person03.jpg" },
+  { id: "person04", name: "増田 正樹", image: "images/person04.jpg" },
+  { id: "person05", name: "笠原 光", image: "images/person05.jpg" },
+  { id: "person06", name: "本田 健司", image: "images/person06.jpg" },
+  { id: "person07", name: "鈴木 千鶴", image: "images/person07.jpg" },
+  { id: "person08", name: "浅野 俊彦", image: "images/person08.jpg" },
+  { id: "person09", name: "原 裕子", image: "images/person09.jpg" },
+  { id: "person10", name: "須貝 みゆき", image: "images/person10.jpg" }
 ];
 
 // 新しいGoogle Apps ScriptウェブアプリURLを後で設定します。空欄の間は送信されません。
